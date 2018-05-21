@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF881D7420B37C0700D36D66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881D7320B37C0700D36D66 /* AppDelegate.swift */; };
+		DF881D7620B37C0700D36D66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881D7520B37C0700D36D66 /* ViewController.swift */; };
+		DF881D7920B37C0700D36D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF881D7720B37C0700D36D66 /* Main.storyboard */; };
+		DF881D7B20B37C0B00D36D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF881D7A20B37C0B00D36D66 /* Assets.xcassets */; };
+		DF881D7E20B37C0B00D36D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF881D7C20B37C0B00D36D66 /* LaunchScreen.storyboard */; };
+		DF881D8920B37C0B00D36D66 /* Mini_WaferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881D8820B37C0B00D36D66 /* Mini_WaferTests.swift */; };
+		DF881D9420B37C0B00D36D66 /* Mini_WaferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881D9320B37C0B00D36D66 /* Mini_WaferUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF881D8520B37C0B00D36D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF881D6820B37C0700D36D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF881D6F20B37C0700D36D66;
+			remoteInfo = "Mini Wafer";
+		};
+		DF881D9020B37C0B00D36D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF881D6820B37C0700D36D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF881D6F20B37C0700D36D66;
+			remoteInfo = "Mini Wafer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF881D7020B37C0700D36D66 /* Mini Wafer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Wafer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF881D7320B37C0700D36D66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF881D7520B37C0700D36D66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF881D7820B37C0700D36D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF881D7A20B37C0B00D36D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF881D7D20B37C0B00D36D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF881D7F20B37C0B00D36D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF881D8420B37C0B00D36D66 /* Mini WaferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini WaferTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF881D8820B37C0B00D36D66 /* Mini_WaferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_WaferTests.swift; sourceTree = "<group>"; };
+		DF881D8A20B37C0B00D36D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF881D8F20B37C0B00D36D66 /* Mini WaferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini WaferUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF881D9320B37C0B00D36D66 /* Mini_WaferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_WaferUITests.swift; sourceTree = "<group>"; };
+		DF881D9520B37C0B00D36D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF881D6D20B37C0700D36D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF881D8120B37C0B00D36D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF881D8C20B37C0B00D36D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF881D6720B37C0700D36D66 = {
+			isa = PBXGroup;
+			children = (
+				DF881D7220B37C0700D36D66 /* Mini Wafer */,
+				DF881D8720B37C0B00D36D66 /* Mini WaferTests */,
+				DF881D9220B37C0B00D36D66 /* Mini WaferUITests */,
+				DF881D7120B37C0700D36D66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF881D7120B37C0700D36D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF881D7020B37C0700D36D66 /* Mini Wafer.app */,
+				DF881D8420B37C0B00D36D66 /* Mini WaferTests.xctest */,
+				DF881D8F20B37C0B00D36D66 /* Mini WaferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF881D7220B37C0700D36D66 /* Mini Wafer */ = {
+			isa = PBXGroup;
+			children = (
+				DF881D7320B37C0700D36D66 /* AppDelegate.swift */,
+				DF881D7520B37C0700D36D66 /* ViewController.swift */,
+				DF881D7720B37C0700D36D66 /* Main.storyboard */,
+				DF881D7A20B37C0B00D36D66 /* Assets.xcassets */,
+				DF881D7C20B37C0B00D36D66 /* LaunchScreen.storyboard */,
+				DF881D7F20B37C0B00D36D66 /* Info.plist */,
+			);
+			path = "Mini Wafer";
+			sourceTree = "<group>";
+		};
+		DF881D8720B37C0B00D36D66 /* Mini WaferTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF881D8820B37C0B00D36D66 /* Mini_WaferTests.swift */,
+				DF881D8A20B37C0B00D36D66 /* Info.plist */,
+			);
+			path = "Mini WaferTests";
+			sourceTree = "<group>";
+		};
+		DF881D9220B37C0B00D36D66 /* Mini WaferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF881D9320B37C0B00D36D66 /* Mini_WaferUITests.swift */,
+				DF881D9520B37C0B00D36D66 /* Info.plist */,
+			);
+			path = "Mini WaferUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF881D6F20B37C0700D36D66 /* Mini Wafer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF881D9820B37C0B00D36D66 /* Build configuration list for PBXNativeTarget "Mini Wafer" */;
+			buildPhases = (
+				DF881D6C20B37C0700D36D66 /* Sources */,
+				DF881D6D20B37C0700D36D66 /* Frameworks */,
+				DF881D6E20B37C0700D36D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mini Wafer";
+			productName = "Mini Wafer";
+			productReference = DF881D7020B37C0700D36D66 /* Mini Wafer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF881D8320B37C0B00D36D66 /* Mini WaferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF881D9B20B37C0B00D36D66 /* Build configuration list for PBXNativeTarget "Mini WaferTests" */;
+			buildPhases = (
+				DF881D8020B37C0B00D36D66 /* Sources */,
+				DF881D8120B37C0B00D36D66 /* Frameworks */,
+				DF881D8220B37C0B00D36D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF881D8620B37C0B00D36D66 /* PBXTargetDependency */,
+			);
+			name = "Mini WaferTests";
+			productName = "Mini WaferTests";
+			productReference = DF881D8420B37C0B00D36D66 /* Mini WaferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF881D8E20B37C0B00D36D66 /* Mini WaferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF881D9E20B37C0B00D36D66 /* Build configuration list for PBXNativeTarget "Mini WaferUITests" */;
+			buildPhases = (
+				DF881D8B20B37C0B00D36D66 /* Sources */,
+				DF881D8C20B37C0B00D36D66 /* Frameworks */,
+				DF881D8D20B37C0B00D36D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF881D9120B37C0B00D36D66 /* PBXTargetDependency */,
+			);
+			name = "Mini WaferUITests";
+			productName = "Mini WaferUITests";
+			productReference = DF881D8F20B37C0B00D36D66 /* Mini WaferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF881D6820B37C0700D36D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "tolu oluwagbemi";
+				TargetAttributes = {
+					DF881D6F20B37C0700D36D66 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					DF881D8320B37C0B00D36D66 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DF881D6F20B37C0700D36D66;
+					};
+					DF881D8E20B37C0B00D36D66 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DF881D6F20B37C0700D36D66;
+					};
+				};
+			};
+			buildConfigurationList = DF881D6B20B37C0700D36D66 /* Build configuration list for PBXProject "Mini Wafer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF881D6720B37C0700D36D66;
+			productRefGroup = DF881D7120B37C0700D36D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF881D6F20B37C0700D36D66 /* Mini Wafer */,
+				DF881D8320B37C0B00D36D66 /* Mini WaferTests */,
+				DF881D8E20B37C0B00D36D66 /* Mini WaferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF881D6E20B37C0700D36D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF881D7E20B37C0B00D36D66 /* LaunchScreen.storyboard in Resources */,
+				DF881D7B20B37C0B00D36D66 /* Assets.xcassets in Resources */,
+				DF881D7920B37C0700D36D66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF881D8220B37C0B00D36D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF881D8D20B37C0B00D36D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF881D6C20B37C0700D36D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF881D7620B37C0700D36D66 /* ViewController.swift in Sources */,
+				DF881D7420B37C0700D36D66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF881D8020B37C0B00D36D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF881D8920B37C0B00D36D66 /* Mini_WaferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF881D8B20B37C0B00D36D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF881D9420B37C0B00D36D66 /* Mini_WaferUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF881D8620B37C0B00D36D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF881D6F20B37C0700D36D66 /* Mini Wafer */;
+			targetProxy = DF881D8520B37C0B00D36D66 /* PBXContainerItemProxy */;
+		};
+		DF881D9120B37C0B00D36D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF881D6F20B37C0700D36D66 /* Mini Wafer */;
+			targetProxy = DF881D9020B37C0B00D36D66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF881D7720B37C0700D36D66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF881D7820B37C0700D36D66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF881D7C20B37C0B00D36D66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF881D7D20B37C0B00D36D66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF881D9620B37C0B00D36D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF881D9720B37C0B00D36D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF881D9920B37C0B00D36D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W669BK4JQ;
+				INFOPLIST_FILE = "Mini Wafer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mini-Wafer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF881D9A20B37C0B00D36D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W669BK4JQ;
+				INFOPLIST_FILE = "Mini Wafer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mini-Wafer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF881D9C20B37C0B00D36D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W669BK4JQ;
+				INFOPLIST_FILE = "Mini WaferTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mini-WaferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mini Wafer.app/Mini Wafer";
+			};
+			name = Debug;
+		};
+		DF881D9D20B37C0B00D36D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W669BK4JQ;
+				INFOPLIST_FILE = "Mini WaferTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mini-WaferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mini Wafer.app/Mini Wafer";
+			};
+			name = Release;
+		};
+		DF881D9F20B37C0B00D36D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W669BK4JQ;
+				INFOPLIST_FILE = "Mini WaferUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mini-WaferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mini Wafer";
+			};
+			name = Debug;
+		};
+		DF881DA020B37C0B00D36D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W669BK4JQ;
+				INFOPLIST_FILE = "Mini WaferUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mini-WaferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mini Wafer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF881D6B20B37C0700D36D66 /* Build configuration list for PBXProject "Mini Wafer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF881D9620B37C0B00D36D66 /* Debug */,
+				DF881D9720B37C0B00D36D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF881D9820B37C0B00D36D66 /* Build configuration list for PBXNativeTarget "Mini Wafer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF881D9920B37C0B00D36D66 /* Debug */,
+				DF881D9A20B37C0B00D36D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF881D9B20B37C0B00D36D66 /* Build configuration list for PBXNativeTarget "Mini WaferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF881D9C20B37C0B00D36D66 /* Debug */,
+				DF881D9D20B37C0B00D36D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF881D9E20B37C0B00D36D66 /* Build configuration list for PBXNativeTarget "Mini WaferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF881D9F20B37C0B00D36D66 /* Debug */,
+				DF881DA020B37C0B00D36D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF881D6820B37C0700D36D66 /* Project object */;
+}
