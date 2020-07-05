@@ -14,6 +14,13 @@
 		DF881D7E20B37C0B00D36D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF881D7C20B37C0B00D36D66 /* LaunchScreen.storyboard */; };
 		DF881D8920B37C0B00D36D66 /* Mini_WaferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881D8820B37C0B00D36D66 /* Mini_WaferTests.swift */; };
 		DF881D9420B37C0B00D36D66 /* Mini_WaferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881D9320B37C0B00D36D66 /* Mini_WaferUITests.swift */; };
+		DF881DA120B3814500D36D66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881D7520B37C0700D36D66 /* ViewController.swift */; };
+		DF881DA320B38DE100D36D66 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881DA220B38DE000D36D66 /* Extensions.swift */; };
+		DF881DA420B3936200D36D66 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881DA220B38DE000D36D66 /* Extensions.swift */; };
+		DF881DA620B39F7400D36D66 /* CountryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881DA520B39F7400D36D66 /* CountryViewCell.swift */; };
+		DF881DA820B39F9400D36D66 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881DA720B39F9400D36D66 /* Country.swift */; };
+		DF881DA920B3A32100D36D66 /* CountryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881DA520B39F7400D36D66 /* CountryViewCell.swift */; };
+		DF881DAA20B3A32E00D36D66 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881DA720B39F9400D36D66 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,9 @@
 		DF881D8F20B37C0B00D36D66 /* Mini WaferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini WaferUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF881D9320B37C0B00D36D66 /* Mini_WaferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_WaferUITests.swift; sourceTree = "<group>"; };
 		DF881D9520B37C0B00D36D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF881DA220B38DE000D36D66 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DF881DA520B39F7400D36D66 /* CountryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewCell.swift; sourceTree = "<group>"; };
+		DF881DA720B39F9400D36D66 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,9 @@
 				DF881D7A20B37C0B00D36D66 /* Assets.xcassets */,
 				DF881D7C20B37C0B00D36D66 /* LaunchScreen.storyboard */,
 				DF881D7F20B37C0B00D36D66 /* Info.plist */,
+				DF881DA220B38DE000D36D66 /* Extensions.swift */,
+				DF881DA520B39F7400D36D66 /* CountryViewCell.swift */,
+				DF881DA720B39F9400D36D66 /* Country.swift */,
 			);
 			path = "Mini Wafer";
 			sourceTree = "<group>";
@@ -257,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF881D7620B37C0700D36D66 /* ViewController.swift in Sources */,
+				DF881DA320B38DE100D36D66 /* Extensions.swift in Sources */,
 				DF881D7420B37C0700D36D66 /* AppDelegate.swift in Sources */,
+				DF881DA820B39F9400D36D66 /* Country.swift in Sources */,
+				DF881DA620B39F7400D36D66 /* CountryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF881DA120B3814500D36D66 /* ViewController.swift in Sources */,
+				DF881DA420B3936200D36D66 /* Extensions.swift in Sources */,
 				DF881D8920B37C0B00D36D66 /* Mini_WaferTests.swift in Sources */,
+				DF881DAA20B3A32E00D36D66 /* Country.swift in Sources */,
+				DF881DA920B3A32100D36D66 /* CountryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5W669BK4JQ;
 				INFOPLIST_FILE = "Mini Wafer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5W669BK4JQ;
 				INFOPLIST_FILE = "Mini Wafer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
