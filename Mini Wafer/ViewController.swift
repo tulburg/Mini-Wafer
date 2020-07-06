@@ -19,6 +19,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let statusBarHeight = UIApplication.shared.statusBarFrame.height
+		
+		self.title = "Countries"
         
         // components
         let button = waferBtn(UIImage(named: "reload")!, size: CGSize(width: 50, height: 50))

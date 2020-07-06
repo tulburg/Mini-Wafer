@@ -21,6 +21,7 @@
 		DF881DA820B39F9400D36D66 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881DA720B39F9400D36D66 /* Country.swift */; };
 		DF881DA920B3A32100D36D66 /* CountryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881DA520B39F7400D36D66 /* CountryViewCell.swift */; };
 		DF881DAA20B3A32E00D36D66 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF881DA720B39F9400D36D66 /* Country.swift */; };
+		DFE6A73024B200F9004809C3 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE6A72F24B200F9004809C3 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		DF881DA220B38DE000D36D66 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DF881DA520B39F7400D36D66 /* CountryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewCell.swift; sourceTree = "<group>"; };
 		DF881DA720B39F9400D36D66 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		DFE6A72F24B200F9004809C3 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				DF881DA220B38DE000D36D66 /* Extensions.swift */,
 				DF881DA520B39F7400D36D66 /* CountryViewCell.swift */,
 				DF881DA720B39F9400D36D66 /* Country.swift */,
+				DFE6A72F24B200F9004809C3 /* NavigationController.swift */,
 			);
 			path = "Mini Wafer";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF881D7620B37C0700D36D66 /* ViewController.swift in Sources */,
+				DFE6A73024B200F9004809C3 /* NavigationController.swift in Sources */,
 				DF881DA320B38DE100D36D66 /* Extensions.swift in Sources */,
 				DF881D7420B37C0700D36D66 /* AppDelegate.swift in Sources */,
 				DF881DA820B39F9400D36D66 /* Country.swift in Sources */,
